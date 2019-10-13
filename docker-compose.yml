@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  velmie-ruby2.4:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "10022:22"
+      - "80:80"
+    #volumes:
+      # - /Users/ls/Programming/velmie/internal/likemetool:/home/app/webapp/current
+      # - ./storage:/var/www
+      # - ./build/fix_www_permissions.sh:/usr/local/bin/fix_www_permissions

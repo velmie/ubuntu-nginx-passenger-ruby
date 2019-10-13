@@ -1,0 +1,12 @@
+server {
+    listen 80 default_server;
+
+    root /home/app/webapp/current/public;
+
+    passenger_enabled on;
+    passenger_user app;
+    passenger_app_env production;
+
+    # For Ruby 2.4
+    passenger_ruby /usr/bin/ruby2.4;
+}
