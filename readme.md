@@ -1,7 +1,7 @@
 # ubuntu-nginx-passenger-ruby
-Phusion Passenger + Ruby 2.4 container. Builds upon on the Ubuntu 18.04 LTS unsing [phusion/passenger-docker](https://github.com/phusion/passenger-docker) container. You can find the docker automated build [here](https://registry.hub.docker.com/u/velmie/ubuntu-nginx-php7/).
+Phusion Passenger + Ruby 2.4 container. Builds upon on the Ubuntu 18.04 LTS unsing [phusion/passenger-docker](https://github.com/phusion/passenger-docker) container. You can find the docker automated build [here](https://registry.hub.docker.com/u/velmie/ubuntu-nginx-passenger-ruby/).
 
-[![](https://images.microbadger.com/badges/image/velmie/ubuntu-nginx-php7.svg)](https://microbadger.com/images/velmie/ubuntu-nginx-php7 "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/velmie/ubuntu-nginx-passenger-ruby)](https://microbadger.com/images/velmie/ubuntu-nginx-passenger-ruby "Get your own image badge on microbadger.com")
 
 
 ### Services
